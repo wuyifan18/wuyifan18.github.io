@@ -5,19 +5,13 @@ table#tlayout {
     border-collapse: separate;
     background: white;
 }
-/*
-body {
-	background: white;
-	padding-bottom: 8px;
-	margin: 0;
-}
-*/
+
 html {
   background-color: #eeeeee; 
 }
 
 body { 
-  font-family: Georgia, serif;
+  font-family: Candara;
   color: #000;
   background-color: #ffffff; 
   text-align:left; /* for IE */
