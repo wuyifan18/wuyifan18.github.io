@@ -1,0 +1,391 @@
+{
+  "checked_on": "2026-11-04",
+  "ccf_directory": {
+    "edition": "2026 · 7th edition",
+    "rank": "A",
+    "source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+    "pdf": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+    "pages": {
+      "se": 27,
+      "ai": 57
+    }
+  },
+  "categories": [
+    {
+      "id": "se",
+      "label": "Software Engineering",
+      "ccf_category": "软件工程/系统软件/程序设计语言",
+      "venues": [
+        "FSE",
+        "ASE",
+        "ICSE",
+        "ISSTA"
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "ccf_category": "人工智能",
+      "venues": [
+        "NeurIPS",
+        "ACL",
+        "ICML",
+        "ICLR"
+      ]
+    }
+  ],
+  "conferences": [
+    {
+      "id": "fse-2027-research",
+      "title": "FSE 2027",
+      "name": "ACM International Conference on the Foundations of Software Engineering",
+      "track": "Research papers",
+      "category": "se",
+      "conference_dates": "12–16 Jul 2027",
+      "location": "Shenzhen, China",
+      "website": "https://conf.researchr.org/home/fse-2027",
+      "source": "https://conf.researchr.org/track/fse-2027/fse-2027-papers",
+      "source_timezone": "AoE (UTC−12)",
+      "note": "Extended to 3 October following the HotCRP outage.",
+      "deadlines": [
+        {
+          "label": "Full paper",
+          "at": "2026-10-03T23:59:59-12:00"
+        }
+      ],
+      "venue": "FSE",
+      "review_dates": [
+        {
+          "kind": "response",
+          "label": "Response",
+          "date": "2026-12-14",
+          "end_date": "2026-12-18"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification (initial)",
+          "date": "2027-01-22"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification (revised)",
+          "date": "2027-03-31",
+          "scope": "Notification for papers undergoing major revision."
+        }
+      ]
+    },
+    {
+      "id": "ase-2027-research",
+      "venue": "ASE",
+      "title": "ASE 2027",
+      "name": "IEEE/ACM International Conference on Automated Software Engineering",
+      "track": "Research papers",
+      "category": "se",
+      "conference_dates": "Dates to be announced",
+      "location": "Location to be announced",
+      "website": "https://ase-conferences.org/",
+      "source": "https://ase-conferences.org/",
+      "deadlines": [
+        {
+          "label": "Full paper",
+          "reference_at": "2026-03-26T23:59:59-12:00",
+          "at": "2027-03-26T23:59:59-12:00"
+        }
+      ],
+      "estimate": {
+        "reference_edition": "ASE 2026",
+        "shift_years": 1,
+        "source": "https://conf.researchr.org/track/ase-2026/ase-2026-research-track"
+      },
+      "source_timezone": "AoE (UTC−12)",
+      "review_dates": [
+        {
+          "kind": "response",
+          "label": "Response",
+          "date": "2027-05-25",
+          "end_date": "2027-05-27",
+          "reference_date": "2026-05-25",
+          "reference_end_date": "2026-05-27"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification (initial)",
+          "date": "2027-06-18",
+          "reference_date": "2026-06-18"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification (revised)",
+          "date": "2027-07-29",
+          "scope": "Notification for papers undergoing major revision.",
+          "reference_date": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "id": "icse-2027-research",
+      "venue": "ICSE",
+      "title": "ICSE 2027",
+      "name": "IEEE/ACM International Conference on Software Engineering",
+      "track": "Research papers",
+      "category": "se",
+      "conference_dates": "25 Apr – 1 May 2027",
+      "location": "Dublin, Ireland",
+      "website": "https://conf.researchr.org/home/icse-2027",
+      "source": "https://conf.researchr.org/track/icse-2027/icse-2027-research-track",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "at": "2026-06-23T23:59:59-12:00",
+          "prerequisite": true,
+          "closed_message": "Abstract registration has closed."
+        },
+        {
+          "label": "Full paper",
+          "at": "2026-06-30T23:59:59-12:00"
+        }
+      ],
+      "source_timezone": "AoE (UTC−12)",
+      "review_dates": [
+        {
+          "kind": "response",
+          "label": "Response",
+          "date": "2026-09-23",
+          "end_date": "2026-09-25"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification (initial)",
+          "date": "2026-10-20"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification (revised)",
+          "date": "2026-12-18",
+          "scope": "Notification for papers undergoing major revision."
+        }
+      ]
+    },
+    {
+      "id": "issta-2027-research",
+      "venue": "ISSTA",
+      "title": "ISSTA 2027",
+      "name": "ACM SIGSOFT International Symposium on Software Testing and Analysis",
+      "track": "Research papers",
+      "category": "se",
+      "conference_dates": "7–10 Sep 2027",
+      "location": "Singapore",
+      "website": "https://conf.researchr.org/home/issta-2027",
+      "source": "https://conf.researchr.org/track/issta-2027/issta-2027-research-papers",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "at": "2027-01-08T23:59:59-12:00",
+          "prerequisite": true,
+          "closed_message": "Abstract registration has closed."
+        },
+        {
+          "label": "Full paper",
+          "at": "2027-01-11T23:59:59-12:00"
+        }
+      ],
+      "source_timezone": "AoE (UTC−12)",
+      "review_dates": [
+        {
+          "kind": "response",
+          "label": "Response",
+          "date": "2027-03-22",
+          "end_date": "2027-03-25"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification (initial)",
+          "date": "2027-04-20"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification (revised)",
+          "date": "2027-06-17",
+          "scope": "Notification for papers undergoing major revision."
+        }
+      ]
+    },
+    {
+      "id": "neurips-2027-research",
+      "venue": "NeurIPS",
+      "title": "NeurIPS 2027",
+      "name": "Conference on Neural Information Processing Systems",
+      "track": "Main conference",
+      "category": "ai",
+      "conference_dates": "Dates to be announced",
+      "location": "Europe · City to be announced",
+      "website": "https://neurips.cc/",
+      "source": "https://neurips.cc/Conferences/FutureMeetings",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "reference_at": "2026-05-04T23:59:59-12:00",
+          "prerequisite": true,
+          "closed_message": "Abstract registration has closed.",
+          "at": "2027-05-04T23:59:59-12:00"
+        },
+        {
+          "label": "Full paper",
+          "reference_at": "2026-05-06T23:59:59-12:00",
+          "at": "2027-05-06T23:59:59-12:00"
+        }
+      ],
+      "estimate": {
+        "reference_edition": "NeurIPS 2026",
+        "shift_years": 1,
+        "source": "https://neurips.cc/Conferences/2026/CallForPapers"
+      },
+      "source_timezone": "AoE (UTC−12)",
+      "review_dates": [
+        {
+          "kind": "response",
+          "label": "Response",
+          "date": "2027-07-22",
+          "end_date": "2027-08-03",
+          "source": "https://neurips.cc/Conferences/2026/Dates",
+          "scope": "Includes initial author responses and the author-reviewer discussion, which begins on 27 July in the reference schedule.",
+          "process_source": "https://neurips.cc/Conferences/2026/MainTrackHandbook",
+          "reference_date": "2026-07-22",
+          "reference_end_date": "2026-08-03"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification",
+          "date": "2027-09-24",
+          "source": "https://neurips.cc/Conferences/2026/Dates",
+          "reference_date": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "acl-2027-main",
+      "title": "ACL 2027",
+      "name": "Annual Meeting of the Association for Computational Linguistics",
+      "track": "Main conference · ARR",
+      "category": "ai",
+      "conference_dates": "17–22 Aug 2027",
+      "location": "Kyoto, Japan",
+      "website": "https://2027.aclweb.org/",
+      "source": "https://2027.aclweb.org/",
+      "source_timezone": "AoE (UTC−12)",
+      "note": "The ARR submission date is confirmed; the conference commitment deadline is not yet announced.",
+      "deadlines": [
+        {
+          "label": "ARR submission",
+          "at": "2027-01-04T23:59:00-12:00"
+        }
+      ],
+      "venue": "ACL",
+      "review_dates": [
+        {
+          "kind": "response",
+          "label": "Response (ARR)",
+          "source": "https://aclrollingreview.org/dates"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification",
+          "source": "https://2027.aclweb.org/calls/main/"
+        }
+      ]
+    },
+    {
+      "id": "icml-2027-main",
+      "title": "ICML 2027",
+      "name": "International Conference on Machine Learning",
+      "track": "Main conference",
+      "category": "ai",
+      "conference_dates": "31 Jul – 6 Aug 2027",
+      "location": "Rio de Janeiro, Brazil",
+      "website": "https://icml.cc/Conferences/2027",
+      "source": "https://icml.cc/Conferences/2027",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "reference_at": "2026-01-23T23:59:59-12:00",
+          "prerequisite": true,
+          "closed_message": "Abstract registration has closed.",
+          "at": "2027-01-23T23:59:59-12:00"
+        },
+        {
+          "label": "Full paper",
+          "reference_at": "2026-01-28T23:59:59-12:00",
+          "at": "2027-01-28T23:59:59-12:00"
+        }
+      ],
+      "venue": "ICML",
+      "estimate": {
+        "reference_edition": "ICML 2026",
+        "shift_years": 1,
+        "source": "https://icml.cc/Conferences/2026/CallForPapers"
+      },
+      "source_timezone": "AoE (UTC−12)",
+      "review_dates": [
+        {
+          "kind": "response",
+          "label": "Response",
+          "date": "2027-03-24",
+          "end_date": "2027-03-30",
+          "source": "https://icml.cc/Conferences/2026/Dates",
+          "reference_date": "2026-03-24",
+          "reference_end_date": "2026-03-30"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification",
+          "date": "2027-04-30",
+          "source": "https://icml.cc/Conferences/2026/Dates",
+          "reference_date": "2026-04-30"
+        }
+      ]
+    },
+    {
+      "id": "iclr-2027-main",
+      "title": "ICLR 2027",
+      "name": "International Conference on Learning Representations",
+      "track": "Main conference",
+      "category": "ai",
+      "conference_dates": "26–30 Apr 2027",
+      "location": "San Francisco, CA, USA",
+      "website": "https://iclr.cc/Conferences/2027",
+      "source": "https://iclr.cc/Conferences/2027/CallForPapers",
+      "source_timezone": "AoE (UTC−12)",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "at": "2026-09-18T23:59:59-12:00",
+          "prerequisite": true,
+          "closed_message": "Abstract registration has closed."
+        },
+        {
+          "label": "Full paper",
+          "at": "2026-09-25T23:59:59-12:00"
+        }
+      ],
+      "venue": "ICLR",
+      "review_dates": [
+        {
+          "kind": "response",
+          "label": "Response",
+          "date": "2026-11-05",
+          "end_date": "2026-11-18"
+        },
+        {
+          "kind": "notification",
+          "label": "Notification",
+          "date": "2026-12-16"
+        }
+      ],
+      "location_source": "https://iclr.cc/Conferences/2027/CallForWorkshops"
+    }
+  ],
+  "calendar_timezone": {
+    "label": "AoE",
+    "utc_offset": "-12:00"
+  }
+}

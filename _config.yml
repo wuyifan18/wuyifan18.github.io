@@ -1,0 +1,124 @@
+# al-folio v1.2 starter / al_folio_core 1.0.15, customized for Yifan Wu.
+title: blank
+first_name: Yifan
+last_name: Wu
+description: >-
+  Yifan Wu, Postdoctoral Researcher at Peking University.
+  Trustworthy LLM-based agent systems: reliability, safety, and security.
+keywords: Yifan Wu, Peking University, LLM-based agent systems, trustworthy AI, agent reliability, AI safety, AI security
+lang: en
+timezone: Asia/Shanghai
+url: https://wuyifan18.github.io
+baseurl: ""
+icon: pku.png
+og_image: /assets/img/avatar.png
+serve_og_meta: true
+serve_schema_org: true
+footer_text: >-
+  Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  Last updated: Nov. 2026.
+last_updated: false
+contact_note: ""
+
+theme: al_folio_core
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+  features:
+    cv:
+      enabled: false
+    distill:
+      enabled: false
+  compat:
+    bootstrap:
+      enabled: false
+
+navbar_fixed: true
+footer_fixed: false
+max_width: 1000px
+search_enabled: false
+bib_search: false
+back_to_top: false
+enable_darkmode: false
+enable_navbar_social: false
+enable_masonry: false
+enable_math: false
+enable_progressbar: false
+enable_cookie_consent: false
+enable_publication_thumbnails: false
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
+newsletter:
+  enabled: false
+imagemagick:
+  enabled: false
+third_party_libraries:
+  download: false
+  google_fonts:
+    url:
+      fonts: /assets/css/fonts.css
+
+plugins:
+  - jekyll-cache-bust
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-socials
+  - al_folio_core
+
+markdown: kramdown
+kramdown:
+  input: GFM
+sass:
+  style: compressed
+include:
+  - _pages
+exclude:
+  - vendor
+  - .bundle
+  - .github
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+defaults:
+  - scope:
+      path: assets
+    values:
+      sitemap: false
+
+scholar:
+  last_name: [Wu]
+  first_name: [Yifan]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  query: "@*"
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+max_author_limit:
+filtered_bibtex_keywords:
+  - abbr
+  - publication_kind
+  - first_author
+  - corresponding_author
+  - selected
+  - html
+  - link_label

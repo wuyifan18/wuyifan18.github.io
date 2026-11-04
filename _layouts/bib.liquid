@@ -1,0 +1,27 @@
+---
+---
+<article class="publication" id="{{ entry.key }}" data-publication-key="{{ entry.key }}" data-year="{{ entry.year }}" data-first="{{ entry.first_author | default: 'false' }}" data-corresponding="{{ entry.corresponding_author | default: 'false' }}">
+  <div class="publication-heading">
+    <span class="publication-meta" title="{{ entry.abbr | escape }}{% unless entry.publication_kind == 'Preprint' %} {{ entry.year }}{% endunless %}">[<span class="venue-label">{{ entry.abbr | escape }}</span>{% unless entry.publication_kind == 'Preprint' %}<span class="publication-year">'{{ entry.year | append: '' | slice: -2, 2 }}</span>{% endunless %}]</span>
+    <div class="title">{{ entry.title }}</div>
+  </div>
+  <div class="author">
+    {%- for author in entry.author_array -%}
+      {%- unless forloop.first -%},&#32;{% endunless %}
+      {%- assign clean_last_name = author.last | remove: '*' -%}
+      {%- if author.first == 'Yifan' and clean_last_name == 'Wu' -%}
+        <strong>Yifan Wu{% if author.last contains '*' %}<sup>*</sup>{% endif %}</strong>
+      {%- else -%}
+        {{- author.first | escape }} {{ author.last | escape -}}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+  {% if entry.booktitle or entry.journal %}
+    <div class="periodical"><em>{% if entry.booktitle %}{{ entry.booktitle }}{% else %}{{ entry.journal }}{% endif %}</em></div>
+  {% endif %}
+  <div class="publication-details">
+    {% if entry.html %}{% unless page.hide_arxiv_links and entry.link_label == 'arXiv' %}<a href="{{ entry.html | escape }}">{{ entry.link_label | default: 'Paper' | escape }} <span aria-hidden="true">↗</span></a>{% endunless %}{% endif %}
+    {% if entry.pdf %}<a href="{{ entry.pdf | escape }}">PDF <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if entry.code %}<a href="{{ entry.code | escape }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+  </div>
+</article>

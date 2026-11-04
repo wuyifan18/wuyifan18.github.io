@@ -1,0 +1,38 @@
+# Generated Jekyll output and caches
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+
+# Local dependencies and Python caches
+/.bundle/
+/vendor/
+node_modules/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+
+# Local settings and credentials
+/.aws/
+/.codex/
+/.agents/
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Git history backups, logs, and editor files
+/.git-backups/
+*.log
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
