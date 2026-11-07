@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "jekyll", "4.4.1"
 
 group :jekyll_plugins do
+  gem "al_analytics", "1.0.2"
   gem "jekyll-cache-bust", "0.0.1"
   gem "jekyll-regex-replace", "1.1.0"
   gem "jekyll-scholar", "7.3.0"

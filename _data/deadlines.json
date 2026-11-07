@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-11-04",
+  "checked_on": "2026-11-07",
   "ccf_directory": {
     "edition": "2026 · 7th edition",
     "rank": "A",
@@ -266,7 +266,7 @@
       "id": "acl-2027-main",
       "title": "ACL 2027",
       "name": "Annual Meeting of the Association for Computational Linguistics",
-      "track": "Main conference · ARR",
+      "track": "Main conference",
       "category": "ai",
       "conference_dates": "17–22 Aug 2027",
       "location": "Kyoto, Japan",
@@ -284,7 +284,7 @@
       "review_dates": [
         {
           "kind": "response",
-          "label": "Response (ARR)",
+          "label": "Response",
           "source": "https://aclrollingreview.org/dates"
         },
         {

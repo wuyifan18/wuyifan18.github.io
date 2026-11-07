@@ -1,0 +1,5 @@
+{% if jekyll.environment == 'production' %}
+  {% capture scripts %}{% al_analytics_scripts %}{% endcapture %}
+  {% comment %}al_analytics 1.0.2 still emits defer for Cloudflare's module beacon.{% endcomment %}
+  {{ scripts | replace: '<script defer src="https://static.cloudflareinsights.com/beacon.min.js"', '<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js"' }}
+{% endif %}

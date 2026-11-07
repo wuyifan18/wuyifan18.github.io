@@ -53,6 +53,8 @@ enable_masonry: false
 enable_math: false
 enable_progressbar: false
 enable_cookie_consent: false
+analytics:
+  cloudflare: "7e1e595b9f37439d8a579b572d8cb9d8"
 enable_publication_thumbnails: false
 enable_publication_badges:
   altmetric: false
@@ -70,6 +72,7 @@ third_party_libraries:
       fonts: /assets/css/fonts.css
 
 plugins:
+  - al_analytics
   - jekyll-cache-bust
   - jekyll-regex-replace
   - jekyll/scholar
